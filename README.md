@@ -81,6 +81,9 @@ Q cooking French
 
 
 
+
+
+
 Output for the Sample Input
 
 Q1: P1 P3 
@@ -94,5 +97,7 @@ Q4: P3 P1 P2
 Q5: P1 P3 P6 P2 P4 P5 
 
 Q6: 
+
+
 
 End of problem

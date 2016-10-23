@@ -24,7 +24,11 @@ https://gitanjali-pathania.github.io//Search_Programming_Problem/index.html
 
 
 
-Sample Input \n
+
+
+Sample Input 
+
+
 P Ford Car Review 
 
 P Review Car
@@ -50,7 +54,10 @@ Q Ford Car
 Q cooking French
 
 
+
+
 Output for the Sample Input
+
 
 Q1: P1 P3
 

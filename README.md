@@ -24,8 +24,7 @@ https://gitanjali-pathania.github.io//Search_Programming_Problem/index.html
 
 
 
-Sample Input
-
+Sample Input \n
 P Ford Car Review 
 
 P Review Car

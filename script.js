@@ -116,5 +116,7 @@ function sortObject(obj) {
     arr.sort(function(a, b) {
         return b.value - a.value;
     });
+    if(arr.length>5) arr.pop();
+  
     return arr; // returns array
 }

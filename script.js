@@ -103,8 +103,7 @@ function displayOutput(outputString){
 
 //Function to sort the pages by calculated strength ratings in decending order
 function sortObject(obj) {
-    var arr = [];
-    var prop;
+    var arr = [],extraPages,prop;
     for (prop in obj) {
         if (obj.hasOwnProperty(prop)) {
             arr.push({
@@ -116,7 +115,14 @@ function sortObject(obj) {
     arr.sort(function(a, b) {
         return b.value - a.value;
     });
-    if(arr.length>5) arr.pop();
-  
+    if(arr.length>5) 
+          {
+            extraPages=arr.length-5;
+            while(extraPages>0){
+                  arr.pop();
+                  extraPages--;
+            }
+
+          }
     return arr; // returns array
 }
